@@ -16,11 +16,11 @@ var totalBill = laptopTotal + smartphonetotal + headphonestotal;
 var discount = 0;
 
 if (totalBill > 50000) {
-    discount = totalBill * 20;
+    discount = totalBill * 0.20;
 } else if (totalBill > 3000) {
-    discount = totalBill * 15
+    discount = totalBill * 0.15
 } else if (totalBill > 1000) {
-    discount = totalBill * 10;
+    discount = totalBill * 0.10;
 }
 const TotalAmount = totalBill - discount;
 
